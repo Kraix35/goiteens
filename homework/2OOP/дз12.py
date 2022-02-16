@@ -48,4 +48,9 @@ crcl1 = Circle('Circle', 3)
 
 print(crcl1.find_S_crcl())
 
-print(crcl1.info_crcl)
+figures = [sq1, crcl1]
+suma = 0
+for i in figures:
+    suma += i.S
+
+print(suma)
